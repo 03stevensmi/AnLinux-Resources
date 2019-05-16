@@ -6,9 +6,9 @@ apt-get install xfce4 xfce4-terminal tightvncserver -y
 
 #Setup the necessary files
 mkdir ~/.vnc
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/xstartup -P ~/.vnc/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/vncserver-start -P /usr/local/bin/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/vncserver-stop -P /usr/local/bin/
+wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/xstartup -P ~/.vnc/
+wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/vncserver-start -P /usr/local/bin/
+wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/vncserver-stop -P /usr/local/bin/
 
 chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/vncserver-start
