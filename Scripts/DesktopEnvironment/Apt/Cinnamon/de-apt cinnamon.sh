@@ -7,9 +7,9 @@ apt-get install cinnamon cinnamon-terminal tightvncserver -y
 
 #Setup the necessary files
 mkdir ~/.vnc
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/xstartup -P ~/.vnc/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-start -P /usr/local/bin/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-stop -P /usr/local/bin/
+wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/xstartup -P ~/.vnc/
+wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-start -P /usr/local/bin/
+wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-stop -P /usr/local/bin/
 
 chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/vncserver-start
