@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Get the necessary components
-add-apt-repository ppa:embrosyn/cinnamon
+add-apt-repository universe
 apt-get update
-apt-get install cinnamon-desktop-environment-core cinnamon-terminal tightvncserver -y
+apt-get install cinnamon-desktop-environment cinnamon-session tightvncserver -y
 
 #Setup the necessary files
 mkdir ~/.vnc
