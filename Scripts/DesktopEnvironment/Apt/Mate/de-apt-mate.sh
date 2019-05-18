@@ -2,7 +2,7 @@
 
 #Get the necessary components
 apt-get update
-apt-get install tightvncserver -y
+apt-get install mate-desktop-environment-extras mate-terminal tightvncserver -y
 
 #Setup the necessary files
 mkdir ~/.vnc
