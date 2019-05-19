@@ -1,6 +1,6 @@
-export USER=root
-export HOME=/root
+sudo export USER=root
+sudo export HOME=/root
 
-vncserver -kill :1
-rm -rf /tmp/.X1-lock
-rm -rf /tmp/.X11-unix/X1
+sudo vncserver -kill :1
+sudo rm -rf /tmp/.X1-lock
+sudo rm -rf /tmp/.X11-unix/X1
