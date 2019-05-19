@@ -1,4 +1,4 @@
-export USER=root
-export HOME=/root
+sudo export USER=root
+sudo export HOME=/root
 
-vncserver -geometry 1280x720 -depth 24 -name remote-desktop :1
+sudo vncserver -geometry 1280x720 -depth 24 -name remote-desktop :1
