@@ -1,8 +1,13 @@
 #!/bin/bash
 
 #Get the necessary components
-apt-get update
-apt-get install ubuntu-desktop cinnamon tightvncserver -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install software-properties-common -y
+sudo add-apt-repository universe -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install cinnamon-desktop-environment tightvncserver -y
 
 #Setup the necessary files
 mkdir ~/.vnc
