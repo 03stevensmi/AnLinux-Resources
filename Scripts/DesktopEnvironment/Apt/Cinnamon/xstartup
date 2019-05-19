@@ -1,4 +1,4 @@
 #!/bin/bash
-xrdb $HOME/.Xresources
-vncserver -geometry 1280x720 -depth 16 -name remote-desktop :1
-cinnamon &
+sudo xrdb $HOME/.Xresources
+sudo vncserver -geometry 1280x720 -depth 16 -name remote-desktop :1
+sudo cinnamon &
