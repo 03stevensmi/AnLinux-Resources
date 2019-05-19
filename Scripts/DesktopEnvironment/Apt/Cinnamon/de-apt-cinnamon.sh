@@ -10,14 +10,14 @@ sudo apt-get upgrade -y
 sudo apt-get install cinnamon-desktop-environment tightvncserver -y
 
 #Setup the necessary files
-mkdir ~/.vnc
-wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/xstartup -P ~/.vnc/
-wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-start -P /usr/local/bin/
-wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-stop -P /usr/local/bin/
+sudo mkdir ~/.vnc
+sudo wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/xstartup -P ~/.vnc/
+sudo wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-start -P /usr/local/bin/
+sudo wget https://raw.githubusercontent.com/03stevensmi/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Cinnamon/vncserver-stop -P /usr/local/bin/
 
-chmod +x ~/.vnc/xstartup
-chmod +x /usr/local/bin/vncserver-start
-chmod +x /usr/local/bin/vncserver-stop
+sudo chmod +x ~/.vnc/xstartup
+sudo chmod +x /usr/local/bin/vncserver-start
+sudo chmod +x /usr/local/bin/vncserver-stop
 
 echo " "
 echo "You can now start vncserver by running vncserver-start"
